@@ -12,12 +12,19 @@ Install the following software on your computer:
 - [Node.js](https://nodejs.org/en/download/)
 - [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 - [Docker](https://docs.docker.com/get-docker/)
+- IDE (see [list](#editors-ide))
+
+If you can, work from a **Unix system** (Ubuntu, Mac, dual-boot, VM, WSL)
 
 ## Terminal
 
 - Most useful developer tool
-- Any number of customizations
-- On Windows: Linux Bash Shell, Powershell, Git Bash (don't use default CMD!)
+- Any number of custsomizations
+- Most popular shells are Bash, Zsh and Fish
+
+* [Oh My Zsh](https://ohmyz.sh) is a popular tool to customize your shell environment
+
+- On Windows: WSL, Powershell, Git Bash (don't use default CMD!)
 - On macOS / Linux: native Terminal
 
 ## Bash
@@ -36,7 +43,7 @@ Learn Bash base commands:
   - `:q!` to quit without saving
   - `:wq` to write & quit
 - Use `/` to search for text
-- Use `i` to enter edit mode and `ESC` to exit it
+- Use `i` to enter `INSERT` mode and `ESC` to exit it
 - `vimtutor` is the best tutorial to learn
 
 ## Client VS Server
@@ -49,7 +56,7 @@ Learn Bash base commands:
 ## The IP protocol
 
 - Send data from one computer to another over a network (ex: client/server)
-- Use of IPV4 addresses (ex: 172.16.254.1), IPV6 also available but not much used
+- Use of IPv4 addresses (ex: 172.16.254.1), IPv6 also available but not much used
 - Data packaged in IP packets with 2 sections
   - Header: IP version, addresses, TTL, ...
   - Data: the packet's content
@@ -61,7 +68,7 @@ Learn Bash base commands:
 - HTTP message split between _headers_ & _body_
 - HTTP response always contains
   - the _protocol_ (HTTP/1.1)
-  - a _status code_ (200, 404, ...)
+  - a _status code_ (200, 404, 500, ...)
   - a _status text_ (page not found)
 
 ## API and REST API
@@ -69,7 +76,7 @@ Learn Bash base commands:
 - Application Programming Interface (API)
 - In web: REST API
   - Expose a set of HTTP routes
-  - Use HTTP verbs (GET / POST / PUT / DELETE)
+  - Use HTTP verbs (`GET` / `POST` / `PUT` / `DELETE`)
   - Client connects to communicate
   - Usually communicating in JSON
 
@@ -95,7 +102,7 @@ REST API example: https://petstore.swagger.io/
   - Server needs to have the associated public key
   - Client & server exchange messages encrypted with the keys to authenticate
 
-## The SFTP protocol
+## The SCP protocol
 
 - Send files over SSH
 - ex: deploy a website to a server
@@ -103,7 +110,7 @@ REST API example: https://petstore.swagger.io/
 
 ## Databases
 
-- RDBMS (basis for SQL): MySQL, PostgreSQL, Hive, Oracle
+- RDBMS (basis for SQL): MySQL, PostgreSQL, Hive, OracleDB
 - NoSQL:
   - Filesystems: posix and object storage
   - Documents store: MongoDB, ElasticSearch
@@ -164,7 +171,7 @@ As a developer, the terminal being your partner and the editor is your best frie
 - Limited, should always be coupled with other tests
 - Platforms: [GitHub Actions](https://github.com/features/actions), Jenkins, Circle CI, GitLab pipelines, ...
 
-## StackOverflow
+## StackOverflow (Google will bring you there)
 
 - Huge data source
 - Reactive community
@@ -210,7 +217,7 @@ Valid JSON:
 
 - Human-readable data-serialization format
 - Indentations are important!
-- _"Yet Another Markup Language"_ (V1.0), then _"YAML Ain't Markup Languauge"_ (V1.1)
+- _"Yet Another Markup Language"_ (V1.0), then _"YAML Ain't Markup Language"_ (V1.1)
 
 The same as above JSON, but YAML:
 
