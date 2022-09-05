@@ -46,6 +46,36 @@ Learn Bash base commands:
 - Use `i` to enter `INSERT` mode and `ESC` to exit it
 - `vimtutor` is the best tutorial to learn
 
+## Editors, IDE
+
+As a developer, the terminal being your partner and the editor is your best friend:
+
+- [Vim](https://www.vim.org/) (Linux, macOS, Windows)  
+  Free, one of the most powerful, many will say the most powerful, single file or project-oriented.
+- [Atom](https://atom.io/) (Linux, macOS, Windows)  
+  Free project-oriented, minimalist, and productive UI (my day to day favorite editor), slow and memory hungry
+- [VS Code](https://code.visualstudio.com/) (Linux, macOS, Windows)  
+  Free most popular editor, most active community, and plugins development
+- [Sublime Text](https://www.sublimetext.com/) (Linux, macOS, Windows)  
+  Free, very fast, single file or project-oriented
+- [BBedit](https://www.barebones.com/products/bbedit/) (macOS)  
+  Free version very powerful, very fast
+- [Notepad++](https://notepad-plus-plus.org/) (Windows)  
+  Free, almost a Windows standard, powerful and fast
+- [WebStorm](https://www.jetbrains.com/webstorm/) (Linux, macOS, Windows)
+  Licensed, 30 days trial
+- ...
+
+## Security
+
+- Use a password manager
+- Don't wait, do it now. It will serve you well!
+- Open source solutions include:
+  - [Buttercup](https://buttercup.pw/)
+  - [Bitwarden](https://bitwarden.com/)
+  - [KeePass](https://keepass.info/)
+  - [pass](https://www.passwordstore.org/)
+
 ## Client VS Server
 
 - Two parts of a distributed computing model:
@@ -117,36 +147,6 @@ REST API example: https://petstore.swagger.io/
   - Key/value and sorted key/value stores: Redis, LevelDB
   - Column families: HBase, Cassandra
   - Graph DBs: JanusGraph (ex-TitanDB), Neo4J
-
-## Security
-
-- Use a password manager
-- Don't wait, do it now. It will serve you well!
-- Open source solutions include:
-  - [Buttercup](https://buttercup.pw/)
-  - [Bitwarden](https://bitwarden.com/)
-  - [KeePass](https://keepass.info/)
-  - [pass](https://www.passwordstore.org/)
-
-## Editors, IDE
-
-As a developer, the terminal being your partner and the editor is your best friend:
-
-- [Vim](https://www.vim.org/) (Linux, macOS, Windows)  
-  Free, one of the most powerful, many will say the most powerful, single file or project-oriented.
-- [Atom](https://atom.io/) (Linux, macOS, Windows)  
-  Free project-oriented, minimalist, and productive UI (my day to day favorite editor), slow and memory hungry
-- [VS Code](https://code.visualstudio.com/) (Linux, macOS, Windows)  
-  Free most popular editor, most active community, and plugins development
-- [Sublime Text](https://www.sublimetext.com/) (Linux, macOS, Windows)  
-  Free, very fast, single file or project-oriented
-- [BBedit](https://www.barebones.com/products/bbedit/) (macOS)  
-  Free version very powerful, very fast
-- [Notepad++](https://notepad-plus-plus.org/) Windows)  
-  Free, almost a Windows standard, powerful and fast
-- [WebStorm](https://www.jetbrains.com/webstorm/) (Linux, macOS, Windows)
-  Licensed, 30 days trial
-- ...
 
 ## Programmation paradigms
 
