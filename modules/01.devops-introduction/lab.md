@@ -21,14 +21,19 @@ As result, you will achieve creation a documented project on Node.js of a simple
 ## Before starting
 
 1. Install an **IDE or a text editor**, for example, [Atom](https://atom.io/) or [VS Code](https://code.visualstudio.com/).
+
 2. Install **Git**, use for installation:
-  - Windows: https://gitforwindows.org/
-  - Linux: https://git-scm.com/download/linux
-  - macOS: https://git-scm.com/download/mac   
+
+   - Windows: https://gitforwindows.org/
+
+     - Linux: https://git-scm.com/download/linux
+     - macOS: https://git-scm.com/download/mac   
 3. Install **Node.js**: https://nodejs.org/
 4. Open a command-line interface:
-  - macOS or Linux: use **Terminal**
-  - Windows: use **Git Bash** (should be installed when installing Git). **Note!** Don't use default *CMD.exe*, because it has different commands from a command line of the Linux OS, which is used in most IT environments.
+
+     - macOS or Linux: use **Terminal**
+
+     - Windows: use **Git Bash** (should be installed when installing Git). **Note!** Don't use default *CMD.exe*, because it has different commands from a command line of the Linux OS, which is used in most IT environments.
 
 ## 1. Start a project
 
@@ -159,7 +164,7 @@ Also, this command will add a dependency to your `package.json` like:
     "express": "^4.17.1"
   }
 ...  
-``` 
+```
 
 It is a Node.js (actually NPM) "feature" to let developers install all the necessary packages for the current project using just one single command, instead of installing each package repeating such a command like `npm install PACKAGE_NAME`. You can experiment with it by removing the entire `node_modules` folder and running the `npm install` command.
 
@@ -211,7 +216,7 @@ You may take inspiration for what to write in a `README.md` file from any [Adalt
 Also, you can refer to [this documentation](https://www.makeareadme.com/) to learn more.
 
 1. Create a `README.md` file and describe the project with information such as:
-  
+
 - Short description
 - List of functionalities
 - Installation instructions

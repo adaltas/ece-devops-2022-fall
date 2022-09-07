@@ -26,21 +26,21 @@ The DevOps culture focuses on one goal throughout the entire software delivery l
 
 ## Site Reliability Engineering (SRE) implements DevOps
 
-| DevOps                        | SRE                     |
-| ----------------------------- | ----------------------  |
-| Reduce organization silos     | Using the same tools and techniques |
-| Accept failure as normal      | Have a formula for balancing accidents and failures against new releases  |
-| Implement gradual change      | Encourage moving quickly by reducing costs of failure |
-| Leverage tooling & automation | Minimizing manual systems work to focus on efforts that bring long-term value to the system  |
-| Measure everything            | Measuring availability, uptime, outages, toil, etc. |
+| DevOps                        | SRE                                                                                         |
+| ----------------------------- | ------------------------------------------------------------------------------------------- |
+| Reduce organization silos     | Using the same tools and techniques                                                         |
+| Accept failure as normal      | Have a formula for balancing accidents and failures against new releases                    |
+| Implement gradual change      | Encourage moving quickly by reducing costs of failure                                       |
+| Leverage tooling & automation | Minimizing manual systems work to focus on efforts that bring long-term value to the system |
+| Measure everything            | Measuring availability, uptime, outages, toil, etc.                                         |
 
 ## SRE
 
-- **Service Level Indicators (SLI)**   
+- **Service Level Indicators (SLI)**  
   Metrics over time (latency, throughput of requests per second, or failures per request)
-- **Service Level Objectives (SLO)**   
+- **Service Level Objectives (SLO)**  
   Targets for the cumulative success of SLIs over a period ("last 30 days" or "this quarter")
-- **Service Level Agreement (SLA)**   
+- **Service Level Agreement (SLA)**  
   Promise by a service provider to a service customer about availability. Usually less than SLO.
 
 ## Site Reliability Engineering (SRE) tools
@@ -78,16 +78,29 @@ That is, while there is value in the items on the right, we value the items on t
 ## Agile Principles
 
 - Customer satisfaction is a top priority
+
 - Project requirements can change
+
 - Do frequent deliveries
+
+  > Release soon, release often
+
 - Business & Devs must collaborate throughout the project
+
 - Project actors must be motivated
+
 - Prefer face-to-face conversations
+
 - A working software is the main measure of progress
+
 - Project pace should be sustainable and be maintained
+
 - Pay attention to technical aspects and design
+
 - Keep it simple
+
 - Teams should be self-organized
+
 - Reflect on the progress and process used regularly
 
 ## Scrum
@@ -113,12 +126,12 @@ That is, while there is value in the items on the right, we value the items on t
 
 **Built on:**
 
-- Transparency   
+- Transparency  
   Significant aspects of the process must be visible to those responsible for the outcome
-- Inspection   
+- Inspection  
   Scrum users must frequently inspect Scrum artifacts and progress toward a Sprint Goal to detect undesirable variances
 - Adaptation
-  
+
 ## Scrum
 
 ![Scrum Framework](image/scrum-framework.jpg)
@@ -128,6 +141,7 @@ That is, while there is value in the items on the right, we value the items on t
 Formula: `MAJOR.MINOR.PATCH-LABEL`
 
 Examples:
+
 ```
 2.3.1
 1.0.0-alpha
@@ -143,7 +157,7 @@ Examples:
 
 ## Naming
 
-The company is responsible to define a set of naming rules to ensure the integrity and the coherence of the system. The purpose is to guaranty to business and technical users the comprehension of names while enforcing coherent conventions, structures and names. 
+The company is responsible to define a set of naming rules to ensure the integrity and the coherence of the system. The purpose is to guaranty to business and technical users the comprehension of names while enforcing coherent conventions, structures and names.
 
 Attribution of names must:
 
@@ -156,15 +170,44 @@ Attribution of names must:
 - be singular
 - be as short as possible while preserving the above
 
+Example:
+
+```python
+# Not so readable
+for i in range(0, 10):
+    print(users[i])
+
+# Better
+for user_index in range(0, 10):
+    print(f'User index: {users[i]}')
+```
+
+
+
+## Naming: conventions
+
+- `snake_case`: variable names (e.g. Python)
+- `kebab-case`: folder names
+- `PascalCase`: Classes in OOP (Java, JS, Python, etc.)
+- `camelCase`: Objects
+
+```javascript
+var myObject = new MyBeautifulClass(name = "toto");
+```
+
+**Don't mix them**
+
 ## Naming: ordering multiple names
 
 In case a name includes multiple names of different scopes, it must be ordered from the larger scope to the smallest one. Thinking about how you would organize it in a folder hierarchy.
 
 For example, you have multiple configuration files in your project `myproj`:
+
 - for different environments (`dev` for development, `prod` for production)
 - for different components (`db` for a database, `app` for an application)
 
 The best practice, in this case, would be to choose the format:
+
 ```
 project_component_environment
 ```
