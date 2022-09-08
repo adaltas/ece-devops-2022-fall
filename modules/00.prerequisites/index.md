@@ -19,12 +19,13 @@ If you can, work from a **Unix system** (Ubuntu, Mac, dual-boot, VM, WSL)
 ## Terminal
 
 - Most useful developer tool
+
 - Any number of custsomizations
+
 - Most popular shells are Bash, Zsh and Fish
-
 * [Oh My Zsh](https://ohmyz.sh) is a popular tool to customize your shell environment
-
 - On Windows: WSL, Powershell, Git Bash (don't use default CMD!)
+
 - On macOS / Linux: native Terminal
 
 ## Bash
@@ -44,7 +45,7 @@ Learn Bash base commands:
   - `:wq` to write & quit
 - Use `/` to search for text
 - Use `i` to enter `INSERT` mode and `ESC` to exit it
-- `vimtutor` is the best tutorial to learn
+- `vimtutor` is the best tutorial to learn: https://www.openvim.com/
 
 ## Editors, IDE
 
