@@ -1,5 +1,5 @@
 {
-  "name": "ece-labs-2022",
+  "name": "ece-userapi",
   "version": "1.0.0",
   "description": "User API web application",
   "main": "src/index.js",
@@ -7,17 +7,8 @@
     "start": "node src/index.js",
     "test": "mocha test/*.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/devops-gh-2022/ece-labs-2022.git"
-  },
-  "keywords": [],
-  "author": "",
+  "author": "Sergei Kudinov",
   "license": "",
-  "bugs": {
-    "url": "https://github.com/devops-gh-2022/ece-labs-2022/issues"
-  },
-  "homepage": "https://github.com/devops-gh-2022/ece-labs-2022#readme",
   "dependencies": {
     "express": "^4.17.2",
     "mixme": "^0.5.4",

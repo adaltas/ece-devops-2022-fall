@@ -1,0 +1,6 @@
+node_modules
+.*
+!.github
+!.gitignore
+!.eslintignore
+!.eslintrc.json
