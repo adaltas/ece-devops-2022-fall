@@ -1,0 +1,13 @@
+{
+  "name": "hello_world_docker_compose",
+  "version": "1.0.0",
+  "description": "Node.js on Docker Compose",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "redis": "^3.0.2"
+  }
+}

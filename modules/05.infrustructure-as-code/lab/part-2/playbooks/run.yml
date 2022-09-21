@@ -1,0 +1,11 @@
+---
+- hosts: gitlab_server
+  # Run commands as root
+  become: true
+  # Roles to be executed on these hosts
+  roles:
+  - role: gitlab/install
+    tags: install
+
+  - role: gitlab/healthchecks
+    tags: check

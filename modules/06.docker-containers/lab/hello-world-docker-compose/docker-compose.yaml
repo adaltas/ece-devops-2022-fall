@@ -1,0 +1,11 @@
+version: '3'
+services:
+  redis:
+    image: redis
+  web:
+    # COMPLETE HERE
+    build: .
+    ports:
+      - "5000:8080"
+    environment:
+      # ...
