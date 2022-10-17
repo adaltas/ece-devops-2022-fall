@@ -221,6 +221,7 @@ References:
 
   - [Docker Documentation](https://docs.docker.com/)
   - [Containers at Google](https://cloud.google.com/containers)
+  - [Desacralizing the Linux overlay filesystem in Docker](https://www.adaltas.com/en/2021/06/03/linux-overlay-filesystem-docker/)
 
 Videos:
 
