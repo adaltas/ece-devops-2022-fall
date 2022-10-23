@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kubernetes-bootcamp
+  labels:
+    app: kubernetes-bootcamp
+spec:
+  # TO COMPLETE #2
+  selector:
+    matchLabels:
+      app: kubernetes-bootcamp
+  template:
+    metadata:
+      labels:
+        app: kubernetes-bootcamp
+    spec:
+      containers:
+      - name: kubernetes-bootcamp
+        # TO COMPLETE #1
