@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-host-path
+  labels:
+    app: nginx-host-path
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nginx-host-path
+  template:
+    metadata:
+      labels:
+        app: nginx-host-path
+    spec:
+      volumes:
+        # TODO complete
+      containers:
+      - name: nginx-container
+        image: nginx
+        ports:
+          - containerPort: 80
+            name: "http-server"
+        volumeMounts:
+          # TODO complete
