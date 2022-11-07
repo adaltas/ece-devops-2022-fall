@@ -8,9 +8,7 @@
 
 1. The DevOps project is based on all of the labs passed during the course, it is allowed to use them.
 
-2. Work on the project can be carried out by 1 student.
-
-3. You are allowed to collaborate with other students.
+2. Work on the project can be carried out and presented by 1 or 2 students.
 
 ## Instructions
 
