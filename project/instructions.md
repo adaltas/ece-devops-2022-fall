@@ -23,7 +23,7 @@ Create a web application on any programming language (NodeJS, Java, Ruby, Python
 - tests: unit, API, configuration, connection.
 - health check endpoint ensuring an application is functional
 
-**Note!** You are allowed to use the draft application located in the [courses/devops/modules/03.continuous-testing/lab](courses/devops/modules/03.continuous-testing/lab) folder, but you have to enrich it by **at least** completing all comment sections marked "TODO".
+**Note!** You are allowed to use the draft application located in the [courses/devops/modules/03.continuous-testing/lab](courses/devops/modules/03.continuous-testing/lab) folder, but you have to enrich it by **at least** completing all comment sections marked "TODO". You can also use the more complete version in: [courses/devops/modules/03.continuous-testing/lab](https://github.com/adaltas/ece-devops-2022-fall-corrections/tree/main/userapi)
 
 ### 2. Apply CI/CD pipeline 
 
