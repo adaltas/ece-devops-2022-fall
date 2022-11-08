@@ -15,6 +15,10 @@ Resources for the ECE 2022 DevOps class.
 
 The DevOps culture focus on one goal throughout the entire software delivery lifecycle (not just development and operations): the rapid implementation of stable, high-quality software, from concept to customer or user. The automation of software development, testing and deployment through Continuous Delivery (CD) is a recognized key factor for DevOps. Automation enables faster software implementation and ensures the solutions have the quality, security and stability they need.
 
+## Google Sheet
+
+https://docs.google.com/spreadsheets/d/1cs1UAlQ7njaBlIJrGynzFdAJ2h_8yRAmOrOvH1DKHNg/edit#gid=477910143
+
 ## Modules: 
 
 - 00.prerequisites 
