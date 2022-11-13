@@ -197,6 +197,10 @@ project/k8s/development
 └── service
     └── my-service.yaml
 ```
+Apply object configuration recursively:
+```
+kubectl apply -f path/to/folder/ --recursive
+```
 
 [Read more about managing resources](https://kubernetes.io/docs/concepts/cluster-administration/manage-deployment/)
 
