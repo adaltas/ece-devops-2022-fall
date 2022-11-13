@@ -21,7 +21,7 @@ The aim of DevOps is to remove silos between Development and Operations team. On
 
 ## Monitoring
 
-- Gather data from all layers
+- Gather data from all layers whenever we can
 - Periodic measurements
 - Event based
 - Stored on a monitoring database
