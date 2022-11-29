@@ -14,9 +14,9 @@
 After Minikube installation run:
 
 - `minikube config set vm-driver virtualbox` (or `vmware`, or `kvm2`)
-- `minikube start --memory=16384 --cpus=4 --kubernetes-version=v1.18.0`
+- `minikube start --memory=16384 --cpus=4 --kubernetes-version=v1.20.2`
 
-> **Note!** If you don’t have enough RAM to allocate to the minikube virtual machine then try to put the maximum you have on your laptop.
+> **Note!** If you **DON'T have enough RAM** to allocate to the minikube virtual machine then try to put the maximum you have on your laptop.
 
 Reference - https://istio.io/docs/setup/platform-setup/minikube/
 
