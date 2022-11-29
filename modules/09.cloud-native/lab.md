@@ -13,7 +13,7 @@
 
 After Minikube installation run:
 
-- `minikube config set -driver docker`
+- `minikube config set driver docker`
 - `minikube start -memory=16384 --cpus=4 --kubernetes-version=v1.20.2`
 - `minikube tunnel`
 
