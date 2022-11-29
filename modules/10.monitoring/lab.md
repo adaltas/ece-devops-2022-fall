@@ -15,8 +15,9 @@ The goal of this lab is to use Prometheus with Istio to record metrics that trac
 
 After Minikube installation run:
 
-- `minikube config set vm-driver virtualbox` (or `vmware`, or `kvm2`)
-- `minikube start --memory=16384 --cpus=4 --kubernetes-version=v1.18.0`
+- `minikube config set driver docker`
+- `minikube start --memory=16384 --cpus=4 --kubernetes-version=v1.20.2`
+- `minikube tunnel`
 
 **Note!** If you don’t have enough RAM to allocate to the minikube virtual machine then try to put the maximum you have on your laptop.
 
