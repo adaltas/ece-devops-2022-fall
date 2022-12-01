@@ -45,6 +45,10 @@ Create a pull request to the `master` branch:
 
 ## Part 2. Continuous Delivery (Deployment) with Heroku
 
+As of November 28th 2022, Heroku [stops the free tier](https://blog.heroku.com/next-chapter). You can use the alternative instructions provided [Here](./azure-webapp/webapp-tuto.md) to deploy a webb app with Microsoft Azure Cloud.
+
+The following instructions for Heroku are now legacy.
+
 1. Create an account on [Heroku](https://heroku.com)
 
 2. Create an app on [Heroku](https://dashboard.heroku.com/new-app) and configure it.
