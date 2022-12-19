@@ -2,7 +2,7 @@
 
 ## Deadline
 
-*Will define this later*
+28-12-2022
 
 ## Opportunities
 
